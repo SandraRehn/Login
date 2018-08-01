@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Logga in!</title>
+    <link rel="stylesheet" type="text/css" th:href="@{css.css}">
+
+</head>
+<body>
+
+<form th:action="@{form}" method="post">
+
+    <h2>Logga in:</h2>
+<div id="inloggning">
+    <input id="uname" type="text" name="username" placeholder="Inloggningsnamn"/>
+    <input id="pass" type="text" name="password" placeholder="Lösenord"/>
+    <br>
+    <br>
+    <input type="submit" value="Skicka">
+</div>
+
+</form>
+
+</body>
+</html>

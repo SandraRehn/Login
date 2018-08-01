@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+
+}
+
+#inloggning{
+    align-items: center;
+}
+
+#ett{
+    background-color: hotpink;
+    color: azure;
+    display: inline-block;
+    text-align: center;
+
+}
+#två{
+    background-color: cornflowerblue;
+    color: azure;
+    display: inline-block;
+    text-align: center;
+}
+#tre{
+    background-color: coral;
+    color: azure;
+    display: inline-block;
+    text-align: center;
+}
+
+#uname{
+    display: inline-block;
+    text-align: center;
+    display: inline-block;
+
+}
+
+#pass{
+    display: inline-block;
+    text-align: center;
+    display: inline-block;
+
+}
